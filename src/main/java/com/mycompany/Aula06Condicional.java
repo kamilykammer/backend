@@ -6,7 +6,7 @@ public class Aula06Condicional {
         /**
          * Estrutura condicional simples (if, else)
          *
-         * pode ser lida como: SE, SENÃO
+         * pode ser lida como: SE, SE NÃO
          *
          * a condição verdadeira é executada dentro do if
          */
