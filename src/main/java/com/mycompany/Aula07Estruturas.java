@@ -45,7 +45,7 @@ public class Aula07Estruturas {
          matriz[0][1] = 2; // Atribui um valor na linha 0 e coluna 1
 
          int matriz2 [][] = {// Declara uma matriz 2 x 3
-            {1, 2, 3}
+            {1, 2, 3},
             {3, 2, 1}
         };
 

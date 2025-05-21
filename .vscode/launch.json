@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula07Estruturas",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula07Estruturas",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "IMC",
             "request": "launch",
             "mainClass": "com.mycompany.IMC",
