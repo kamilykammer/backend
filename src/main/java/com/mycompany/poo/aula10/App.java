@@ -1,4 +1,4 @@
-package com.poo.aula10;
+    package com.mycompany.poo.aula10;
 
 public class App {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class App {
         pessoa1.exibirDados();
         pessoa2.exibirDados();
 
-        pessoa1.atribuirSalario(2000.0);
+        pessoa1.atribuirSalario(2000.0, 500);
         pessoa2.atribuirSalario(3500);
 
         /*System.out.println("--- Dados da pessoa ---");
