@@ -45,6 +45,32 @@ public class Pessoa {
     //    this.peso = peso;
     //}
 
+    public Pessoa(String nome, double altura) {
+        this.nome = nome;
+        this.altura = altura;
+        System.out.println("Chamando construtor 5");
+    }
+
+    /**
+     * Sobrecarga de Métodos
+     * 
+     * Sobrecarga é quando possuimos varios metodos com o mesmo nome,
+     * porem com diferenças quanto a quantidade, tipos de parametros e 
+     * retorno.
+     * 
+     * O metod construtor é um exemplo de sobrecarga, quando definimos
+     * mais de uma implementação
+     * 
+     */
+
+     public void conversar() {
+        System.out.println(this.nome + " está conversnado sozinho");
+     }
+
+     public void conversar(String frase) {
+        System.out.println(this.nome + " está falando'" + frase + "' !!");
+     }
+
     public String getNome() {
         return nome;
     }
