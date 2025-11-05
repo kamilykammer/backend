@@ -6,6 +6,12 @@ package com.mycompany.poo.aula13.animais;
  * Toda classe abstrata somente servirá de modelo/molde para
  * herança em outras classes, por ser abstrata, não pode ser instanciada.
  */
+/**
+ * Classe Abstrata
+ * 
+ * Toda classe abstrata somente servirá de modelo/molde para
+ * herança em outras classes, por ser abstrata, não pode ser instanciada.
+ */
 public abstract class Animal {
 
     private String nome;
@@ -22,14 +28,20 @@ public abstract class Animal {
         this.peso = peso;
     }
 
+    // O método som será implementado somente pelas subclasses que herdam de animal
     public abstract void emitirSom();
 
     public void respirar() {
         System.out.println("Respirando... ");
     }
 
+    // Overload (Sobrecarga) o método mover possui 2 definições
     public void mover() {
-        System.out.println(this.nome + " está se movendo ... ");
+        System.out.println(this.nome + " está se movendo ...");
+    }
+
+    public void mover(String direcao) {
+        System.out.println(this.nome + " está se movendo para o(a) " + direcao +  " ...");        
     }
 
     public String getNome() {
